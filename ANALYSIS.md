@@ -17,3 +17,15 @@ Honggfuzz:
     Coverage output:
         multiple bitmaps in shared memory mappings via `mmap` with HUGE page sizes, one file descriptor passed to child process for each
 
+WinAFL:
+    -   Intel PT
+    -   DBI coverage using DynamoRIO
+    -   Static instrumentation using Syzygy (BB, Branch, function, compare)-coverages, only for WINDOWS
+
+LLVM:
+
+AFL:
+
+AFL++:
+
+LibFuzzer:
