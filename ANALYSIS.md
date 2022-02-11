@@ -62,9 +62,9 @@
                 - for each ind. call:   __sanitizer_cov_trace_pc_indirect(void* callee)
         -   Sanitizer Coverage offers different levels of instrumentation.
             - Use these flags together with trace-pc-guard or trace-pc, like this: -fsanitize-coverage=func,trace-pc-guard.
-            -   edge (default): edges are instrumented (see below).
-            -   bb: basic blocks are instrumented.
-            -   func: only the entry block of every function will be instrumented.
+                -   edge (default): edges are instrumented (see below).
+                -   bb: basic blocks are instrumented.
+                -   func: only the entry block of every function will be instrumented.
         -   Coverage outputs:
             - .gcda and .gcno
             - .sancov and .lcov files
